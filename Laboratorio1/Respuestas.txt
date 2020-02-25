@@ -1,0 +1,25 @@
+Nombre: Fernando José Sagastume Cerna
+Carnet: 17004989
+Sección: A
+Ciencias de la Computación VII
+------------------------------------------------------------------------------------------------
+1. a) ¿Qué es un Thread?
+	R. Un thread es un flujo de control secuencial único dentro de un programa. Por defecto, un proceso se ejecuta en un solo thread. Cada thread es nuevas tareas que se pueden ejecutar de forma indefinida y en paralelo a los otros threads.
+b) ¿Qué es un Process?
+	R. Un proceso es la instancia de un programa de computadora que está siendo ejecutado por uno o varios threads. Los procesos suelen ser independientes, mientras que los subprocesos existen como subconjuntos de un proceso
+c) ¿Cuáles son sus diferencias?
+	1. Los procesos suelen ser independientes, mientras que los threads existen como subconjuntos de un proceso
+	2. Los procesos transportan considerablemente más información de estado que los threads, mientras que múltiples treads dentro de un proceso comparten el estado del proceso, así como la memoria y otros recursos.
+	3. Los procesos tienen espacios de direcciones separados, mientras que los threads comparten su espacio de direcciones.
+2. ¿Qué es Multi-Threading?
+	R. Multithreading es un modelo generalizado de programación y ejecución que permite que existan múltiples threads dentro del contexto de un proceso. Estos threads comparten los recursos del proceso, pero pueden ejecutarse de forma independiente.
+3. ¿Qué es Multi-Processing?
+	R. El término se refiere a la capacidad de un sistema para admitir más de un procesador o la capacidad de asignar tareas entre ellos.
+4. En un CPU single-core.
+	a) ¿Cuál es la cantidad de Threads y/o Process que puede soportar ese tipo de procesador?
+		R. En un cpu single core solamente se puede correr un thread a la vez o proceso a la vez.
+	b) ¿De qué depende la cantidad de Threads y/o Process en el CPU?
+		R. La cantidad de threads y procesos que tiene depende de la cantidad de núcleos en su CPU.
+	c) ¿Si fuera Multi-core, tiene más Threads y/o Process, explique tomando un CPU con esa característica?
+		R. Un procesador con dos núcleos tendrá cuatro threads, un procesador con ocho núcleos tendrá 16 threads,
+		   un procesador con 24 núcleos tendrá 48 threads, etc.
