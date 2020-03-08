@@ -1,0 +1,18 @@
+Respuestas:
+
+1. En base a sus pruebas,¿Qué algoritmo tuvo mejores resultados? Justifique.
+	R. SSTF debido a que tiene una menor desviacion estandar, lo cual significa que los elementos de la cola de 
+	   requerimientos estan cerca de la media. Esto ya de por si dice que habrá menor tiempo promedio, ya que los
+	   requerimientos estan cerca los unos de los otros. 
+
+2. ¿Cómo funciona un SSD  (Disco de Estado Sólido)?
+	R. Es un dispositivo de almacenamiento, al igual que un disco duro el cual mantiene los datos almacenados en un estado 	    permanente, incluso sin energía. Una gran diferencia que tienen de los discos duros es que en lugar de almacenar datos en platos magnéticos, los SSD almacenan datos usando memoria flash. Como los SSD no tienen partes móviles, no tienen que girar mientras están en estado de suspensión y no necesitan mover el cabezal de una unidad a diferentes partes de la unidad para acceder a los datos. Por lo tanto, los SSD pueden acceder a los datos más rápido que los HDD.
+
+3. ¿Cuál es el comportamiento de estos algoritmos en un SSD?
+	R. Como los SSDs no tienen partes moviles, entonces el performance no sufre por problemas como el del seek time y latencia rotacional, por lo que usualmente FIFO es el algoritmo utilizado. 
+
+4. ¿Existen Disk Scheduling para un SSD? Justifique.
+	R. Existen dos tipos: 
+		* IRBW-FIFO  (Individual  Read  Bundled Write   FIFO) 
+		* IRBW-FIFO-RP (Individual   Read   Bundled Write  FIFO  with  Read  Preference).
+	- Aunque basicamente son scheduling algorithms basados en el FIFO de los discos duros.
